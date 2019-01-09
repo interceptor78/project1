@@ -1,0 +1,63 @@
+body, html {
+    height: 100%
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    margin-bottom: 10px;
+    }
+
+.subtitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 2px #4e2209;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    
+    }
+
+body {
+    background-image: url(marble.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.row {
+    
+    margin-left: 34px;
+    margin-right: 36px;
+    padding-bottom: 0.5vw;
+    
+}
+h1 {
+    text-indent: 1vw;
+    text-align: left;
+    color: white;
+}
+h2{
+    text-indent: 1vw;
+    text-align: left;
+    color: white;
+    background-color:rgb(70, 67, 65);
+    margin: 0px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+ul {
+    text-align: left;
+    color:black;
+}
+p {
+    
+    text-align: left;
+    color: black;
+    margin-left: 1vw;
+}
+div {
+    border-radius: 10px;
+}
